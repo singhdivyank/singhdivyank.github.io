@@ -39,6 +39,7 @@ $(document).ready(function () {
       "Data Scientist",
       "App Developer",
       "Web Developer",
+      "Toastmaster",
       "Travel Freak",
     ],
     typeSpeed: 100,
