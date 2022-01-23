@@ -36,7 +36,7 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
-      "Data Science intern",
+      "Data Scientist",
       "App Developer",
       "Web Developer",
       "Travel Freak",
