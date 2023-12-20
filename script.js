@@ -36,11 +36,10 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
+      "Generative AI developer",
       "Data Scientist",
-      "App Developer",
-      "Web Developer",
-      "Toastmaster",
-      "Travel Freak",
+      "AWS Cloud Practioner",
+      "Toastmaster"
     ],
     typeSpeed: 100,
     backSpeed: 60,
@@ -52,6 +51,7 @@ $(document).ready(function () {
       "Mobile apps",
       "Front End",
       "Data Science",
+      "Generative AI",
       "Quantum Computing",
       "Blockchain",
     ],
