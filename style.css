@@ -337,39 +337,20 @@ section .title::after {
 .edu .title::after {
   content: "Academic Details";
 }
-.edu .column {
-  float: left;
-  width: 33%;
-  padding: 50px 25px;
-}
-.edu .row {
-  margin: 0 -5px;
-}
-.edu .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.edu .column .card {
+.edu .container {
+  padding: 10px 10px;
+  position: relative;
+  width: 40%;
   background: crimson;
+}
+.edu .container .text-box {
+  padding: 20px 20px;
+  position: relative;
   border-radius: 6px;
-  padding: 25px 35px;
-  text-align: center;
+  font-size: 15px;
+  background: #fff;
 }
-.edu .column .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-.edu .column .card img {
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #222;
-  transition: all 0.3s ease;
-}
-.edu .column .card .a {
+.edu .container .text-box a {
   display: inline-block;
   background: orangered;
   color: #fff;
@@ -381,10 +362,47 @@ section .title::after {
   border: 2px solid orangered;
   transition: all 0.3s ease;
 }
-.edu .column .card a:hover {
-  color: orange;
+.edu .container .text-box a:hover {
+  color: orangered;
   background: none;
 }
+.left-container {
+  left: 0
+}
+.right-container {
+  left: 50%
+}
+.container img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #222;
+  right: -100px;
+  top: 32px;
+  z-index: 10;
+}
+.right-container img {
+  left: -100px;
+}
+.text-box h2 {
+  font-weight: 600;
+}
+.text-box medium {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+/* .edu ::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: orangered;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+} */
 
 /* skills section styling */
 .social {
