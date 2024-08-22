@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="images/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Undergrad Research</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="css/bulma-slider.min.css">
+  <link rel="stylesheet" href="css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="js/fontawesome.all.min.js"></script>
+  <script src="js/bulma-carousel.min.js"></script>
+  <script src="js/bulma-slider.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Estimating the extent of COVID19 Susceptibilities, Infections, and Recoveries using SIR-F model</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/singh-divyank" target="_blank">Divyank Singh</a>,</span>
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/rakshit-goyal-0ab694223/" target="_blank">Rakshit Goyal</a>,</span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=IBWqXUUAAAAJ&hl=en" target="_blank">Dr. Jatin Bedi</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Thapar Institute of Engineering and Technology<br>July 2022</span>
+                    <span class="eql-cntrb"><small></small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <span class="link-block">
+                        <a href="https://drive.google.com/file/d/1xXtVmHCaZ1ErMz-CcG4B_HPI4bvqFQfd/view?usp=share_link" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span>Paper</span>
+                        </a>
+                      </span>
+                    <span class="link-block">
+                      <a href="https://colab.research.google.com/drive/1lk2u9VLOm3HtedsqfaOCfciLyQQWWiVN?usp=sharing" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span>Code</span>
+                    </a>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The COVID-19 pandemic, which began in 2019 in Wuhan, spread globally at an alarming rate
+bringing manufacturing and trade activities worldwide to a standstill, thereby damaging the global
+economy and social well-being. Containing the spread of infection was given prime importance
+by all countries, leading to the demand for a model to predict the extent of the disease over a
+time period in the near future. In this paper, a SIR-F model predicting the extent of COVID-19 infections over the next 200 days is developed by studying the Susceptible Recovered ratio and
+observing trends in epidemiological parameters by using several datasets for three countries, namely
+the JHU dataset, OxCGRT dataset, PCRData and VaccineData. From the experimental analysis,
+it has been found that the Federal Republic of Germany and United States of America will be
+in the endemic by May-June 2022 while the Republic of India can witness a surge in number of
+infections, however, the intensity of infections will be significantly lower than previous instances.
+Upon plotting the obtained results against experimental data, the model was found to be accurate
+at estimating future trends.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <p>The research aims at providing a deadline for the end of the COVID19 pandemic in 3 countries.
+        In the proposed solution importance has been given to strigency measures such as vaccinations and lockdowns.
+        Therefore, a compartmental model run with Ordinary Differential Equations was modelled by assigning the
+        target population to three compartments- i) Susceptible, ii) Infected, and iii) Recovered. To minimise the Root
+        Mean Square Logarithmic Error model hyperparameters were optimized. Conclusions were drawn after plotting the 
+        three population compartments and comparing the positivity rate and reproduction number.
+        </p>
+      <!-- Predictions graphs -->
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <h2 class="subtitle has-text-centered">Model Predictions</h2>
+        <img src="images/covid_img/india_700.png" alt="MY ALT TEXT"/>
+        </div>
+        <div class="item">
+          <h2 class="subtitle has-text-centered">Model Predictions</h2>
+          <img src="images/covid_img/germany_700.png" alt="MY ALT TEXT"/>
+        </div>
+        <div class="item">
+          <h2 class="subtitle has-text-centered">Model Predictions</h2>
+          <img src="images/covid_img/us_700.png" alt="MY ALT TEXT"/>
+        </div>
+      </div>
+      <!-- Accuracy graphs -->
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+         <h2 class="subtitle has-text-centered">Model Performance</h2>
+         <img src="images/covid_img/india_infect_700.png" alt="MY ALT TEXT"/>
+         </div>
+         <div class="item">
+           <h2 class="subtitle has-text-centered">Model Performance</h2>
+           <img src="images/covid_img/germany_infect_700.png" alt="MY ALT TEXT"/>
+         </div>
+         <div class="item">
+           <h2 class="subtitle has-text-centered">Model Performance</h2>
+           <img src="images/covid_img/us_infect_700.png" alt="MY ALT TEXT"/>
+         </div>
+       </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
