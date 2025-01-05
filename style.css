@@ -221,8 +221,14 @@ section .title::after {
 .experience .title::after {
   content: "My Work History";
 }
+.experience .serv-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
 .experience .serv-content .flip-card {
-  width: calc(33% - 20px);
+  width: calc(33% - 10px);
   background: crimson;
   border-radius: 6px;
   padding: 50px 25px;
@@ -294,16 +300,16 @@ section .title::after {
   content: "Outside Industry";
 }
 .project .project-content .left {
-  width: 40%;
+  width: 45%;
 }
 .project .project-content .left img {
-  height: 400px;
+  height: 500px;
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
 }
 .project .project-content .right {
-  width: 60%;
+  width: 55%;
 }
 .project .project-content .right .text {
   font-size: 25px;
@@ -414,7 +420,7 @@ section .title::after {
 }
 .social .title::after {
   background: #111;
-  content: "Community Engagement";
+  content: "Recognition & Awards";
 }
 .social .carousel .card {
   background: orangered;
