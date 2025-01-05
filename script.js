@@ -39,7 +39,7 @@ $(document).ready(function () {
       "Gen AI developer",
       "AI researcher",
       "Data Scientist",
-      "AWS Cloud Practioner",
+      "AWS Cloud Certified",
     ],
     typeSpeed: 100,
     backSpeed: 60,
@@ -53,6 +53,7 @@ $(document).ready(function () {
       "Data Visualization",
       "Machine Learning",
       "Recommendation Systems",
+      "Orchestration"
     ],
     typeSpeed: 100,
     backSpeed: 60,
