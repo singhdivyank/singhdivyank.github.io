@@ -52,6 +52,8 @@ $(document).ready(function () {
       "Voice Assistants",
       "Data Visualization",
       "Machine Learning",
+      "JavaScript",
+      "React",
       "Recommendation Systems",
       "Orchestration"
     ],

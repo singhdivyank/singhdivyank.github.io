@@ -304,7 +304,7 @@ section .title::after {
 }
 .project .project-content .left img {
   height: 500px;
-  width: 400px;
+  width: 450px;
   object-fit: cover;
   border-radius: 6px;
 }
